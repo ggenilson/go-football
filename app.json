@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "GoFootball",
+    "slug": "mobile-test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shadowsteam.gofootball",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.shadowsteam.gofootball",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
