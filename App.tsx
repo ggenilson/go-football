@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import TeamProvider from './src/contexts/teamContext';
 import { store } from './src/state';
+import {StatusBar} from 'expo-status-bar'
 
 import Home from './src/screens/home';
 import About from './src/screens/team';
@@ -18,6 +19,9 @@ export default function App() {
     <Provider store={store}>
       <TeamProvider>
         <NavigationContainer>
+          <StatusBar
+            hidden={true}
+          />
           <Stack.Navigator initialRouteName="Home">
             <Stack.Screen
               name="Home"

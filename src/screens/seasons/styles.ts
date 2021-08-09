@@ -6,10 +6,10 @@ export const Seasontyle = StyleSheet.create({
     backgroundColor: 'white',
   },
   imgLeague: {
-    width: '70px',
-    height: '70px',
+    width: 70,
+    height: 70,
     borderRadius: 70,
-    marginRight: '10px',
+    marginRight: 10,
   },
   infoLeague: {
     flexDirection: 'row',
@@ -27,7 +27,6 @@ export const Seasontyle = StyleSheet.create({
     padding: 10,
   },
   seasonItem: {
-    cursor: 'pointer',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -50,8 +49,8 @@ export const Seasontyle = StyleSheet.create({
     alignSelf: 'center',
   },
   backButton: {
-    width: '80px',
-    height: '34px',
+    width: 80,
+    height: 34,
     backgroundColor: 'rgb(29, 218, 29)',
     flexDirection: 'row',
     alignItems: 'center',

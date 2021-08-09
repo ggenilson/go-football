@@ -1,5 +1,5 @@
 import React, { FC, useEffect } from 'react';
-import { View, Text, Image, TouchableOpacity } from 'react-native';
+import { View, Text, Image, TouchableOpacity,ScrollView } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { RouteStackParamList } from '../../@types/global';
@@ -8,6 +8,7 @@ import { LeagueType, SeasonInfoType } from '../home/types';
 import Header from '../../components/header';
 import { Seasontyle } from './styles';
 import { getStandings } from '../home/utils';
+
 
 const Seasons: FC<RouteStackParamList<'Seasons'>> = ({ navigation }) => {
   const seasonInfo: SeasonInfoType = useSelector(
@@ -28,7 +29,7 @@ const Seasons: FC<RouteStackParamList<'Seasons'>> = ({ navigation }) => {
   }
 
   return (
-    <View style={Seasontyle.container}>
+    <ScrollView style={Seasontyle.container}>
       <Header />
 
       <View>
@@ -66,7 +67,7 @@ const Seasons: FC<RouteStackParamList<'Seasons'>> = ({ navigation }) => {
           </View>
         </TouchableOpacity>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

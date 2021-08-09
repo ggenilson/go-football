@@ -105,7 +105,6 @@ export const HomeStyle = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 10,
-    cursor: 'pointer',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -134,14 +133,14 @@ export const HomeStyle = StyleSheet.create({
     alignSelf: 'flex-end',
   },
   infoCountryImg: {
-    width: '29px',
-    height: '20px',
+    width: 29,
+    height: 20,
     borderRadius: 5,
     marginLeft: 10,
   },
   leagueImg: {
-    width: '60px',
-    height: '60px',
+    width: 60,
+    height: 60,
     borderRadius: 60,
     marginRight: 15,
   },
@@ -161,20 +160,20 @@ export const HomeStyle = StyleSheet.create({
     flexDirection: 'row',
   },
   footerPaginateButton: {
-    width: '55px',
-    height: '29px',
+    width: 55,
+    height: 29,
     backgroundColor: 'rgb(29, 218, 29)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 5,
 
-    marginLeft: '10px',
+    marginLeft: 10,
   },
   footerPaginateItem: {
     color: 'white',
     fontWeight: 'bold',
-    fontFamily: 'Arial',
+  
   },
   footerPage: {
     fontSize: 16,
@@ -184,7 +183,7 @@ export const HomeStyle = StyleSheet.create({
     borderStyle: 'solid',
     borderColor: 'gray',
     borderWidth: 1,
-    width: '50px',
+    width: 50,
     borderRadius: 5,
     padding: 5,
   },
@@ -192,7 +191,7 @@ export const HomeStyle = StyleSheet.create({
     width: '100%',
     padding: 10,
     alignSelf: 'center',
-    marginBottom: '5px',
+    marginBottom: 5,
   },
   searchInput: {
     borderStyle: 'solid',

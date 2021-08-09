@@ -1,6 +1,6 @@
 import React, { FC, useContext } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { View, Image, Text, TouchableOpacity } from 'react-native';
+import { View, Image, Text, TouchableOpacity ,ScrollView} from 'react-native';
 
 import { filterTypes, handleValueChange, getTeamInformation } from './utils';
 import { TeamInformationType } from '../../contexts/teamContext/types';
@@ -38,7 +38,7 @@ const RenderLeagueStanding: FC<RouteStackParamList<'Standings'>> = ({
   }, [teamInfo]);
 
   return country ? (
-    <View>
+    <ScrollView>
       <View>
         <View style={HomeStyle.searchContainer}>
           <SelectInput
@@ -113,7 +113,7 @@ const RenderLeagueStanding: FC<RouteStackParamList<'Standings'>> = ({
           </TouchableOpacity>
         )
       )}
-    </View>
+    </ScrollView>
   ) : (
     <Text style={StandingsStyle.requestError}>
       Opaah! Não conseguimos carregar os dados!

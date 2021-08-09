@@ -22,17 +22,17 @@ export const TeamStyle = StyleSheet.create({
   },
   imgVenue: {
     width: '100%',
-    height: '200px',
+    height: 200,
     borderRadius: 5,
   },
   secondItemTeamInfo: {
     flexDirection: 'row',
-    marginTop: '20px',
+    marginTop: 10,
     justifyContent: 'space-between',
   },
   imgTeam: {
-    width: '30px',
-    height: '25px',
+    width: 30,
+    height: 25,
     borderRadius: 5,
   },
   teamInfo: {

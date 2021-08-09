@@ -51,8 +51,8 @@ export const StandingsStyle = StyleSheet.create({
     margin: 'auto',
   },
   imgTeamCountry: {
-    width: '50px',
-    height: '50px',
+    width: 50,
+    height: 50,
     borderRadius: 5,
   },
   win: {

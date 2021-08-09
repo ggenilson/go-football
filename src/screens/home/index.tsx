@@ -35,6 +35,8 @@ const Home: FC<RouteStackParamList<'Home'>> = ({ navigation }) => {
       const newRes = paginateData(res, 10);
       setLeagues(newRes);
       setOldLeagues(newRes);
+
+      
     });
   }, []);
 
